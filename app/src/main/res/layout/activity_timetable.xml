@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".TimetableActivity">
+
+
+
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Row 1 Starts From Here -->
+
+        <!-- Row 2 Starts From Here -->
+
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/I"
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:layout_span="1"
+                android:background="#64FFDA"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/I"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+        </TableRow>
+
+        <!-- Row 3 Starts From Here -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+
+
+            <TextView
+                android:id="@+id/II"
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:layout_span="1"
+                android:background="#FFE0B2"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/II"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <!-- Row 4 Starts From Here -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+
+
+            <TextView
+                android:id="@+id/III"
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:layout_weight="1"
+                android:background="#FFCCBC"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/III"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+
+            <TextView
+                android:id="@+id/IV"
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:background="#64FFDA"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/IV"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+
+        </TableRow>
+
+
+        <!-- Row 5 Starts From Here -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+
+
+
+            <TextView
+                android:id="@+id/V"
+                android:layout_width="125dp"
+                android:layout_height="116dp"
+                android:layout_weight="1"
+                android:background="#FFCCBC"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/V"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+
+            <TextView
+                android:id="@+id/VI"
+                android:layout_width="125dp"
+                android:layout_height="116dp"
+                android:background="#FFE0B2"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/VI"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

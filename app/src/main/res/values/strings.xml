@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">MySkasc</string>
+    <string name="email_id">Email id</string>
+    <string name="password">Password</string>
+    <string name="create_a_new_account">Create a new Account</string>
+    <string name="login">LOGIN</string>
+    <string name="image">Image</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="Class">Class:III MSc SS</string>
+    <string name="Your_name">Your Name</string>
+    <string name="Your_Roll_No">Your Roll Number</string>
+    <string name="Your_Phone_No">Your Phone Number</string>
+
+    <string name="I">I DAY ORDER</string>
+    <string name="II">II DAY ORDER</string>
+    <string name="III">III DAY ORDER</string>
+    <string name="IV">IV DAY ORDER</string>
+    <string name="V">V DAY ORDER</string>
+    <string name="VI">VI DAY ORDER</string>
+
+
+    <string name="todo1">TODO1</string>
+    <string name="todo2">TODO2</string>
+    <string name="todo3">TODO3</string>
+    <string name="todo4">TODO4</string>
+    <string name="todo5">TODO5</string>
+    <string name="todo6">TODO6</string>
+    <string name="college_email_id">College Mail ID</string>
+    <string name="name">Name</string>
+    <string name="DOB">Date Of Birth</string>
+    <string name="roll_number">Roll Number</string>
+    <string name="Register">Register</string>
+    <string name="time">Time</string>
+    <string name="ek">EK</string>
+    <string name="statistics">STATISTICS</string>
+    <string name="si_bmp">SI/BMP</string>
+    <string name="st_lab">ST LAB</string>
+    <string name="_2_00_4_00">2:00-4:00</string>
+    <string name="av">AV</string>
+    <string name="vb_net">VB.NET</string>
+    <string name="_12_00_1_00">12:00-1:00</string>
+    <string name="_9_40_10_40">9:40-10:40</string>
+    <string name="faculty">Faculty</string>
+    <string name="_10_40_11_40">10:40-11:40</string>
+    <string name="course">Course</string>
+    <string name="software_testing">ST</string>
+    <string name="si">SI</string>
+    <string-array name="photos">
+        <item>img1</item>
+        <item>img2</item>
+        <item>img3</item>
+        <item>img4</item>
+        <item>img5</item>
+    </string-array>
+    <string-array name="description">
+        <item>ARENA WORKSHOP</item>
+        <item>IIT WORKSHOP DAY 1</item>
+        <item>IIT WORKSHOP DAY 2</item>
+        <item>MINI HACKATHON</item>
+        <item>WORKSHOP IN CHENNAI</item>
+    </string-array>
+
+    <string name="_11_40_12_00">11:40-12:00</string>
+    <string name="Break">BREAK</string>
+    <string name="_1_00_2_00">1:00-2:00</string>
+    <string name="lunch">LUNCH</string>
+    <string name="todo01">TODO</string>
+    <string name="todo02">TODO</string>
+    <string name="todo03">TODO</string>
+    <string name="LOGOUT">LOGOUT</string>
+
+</resources>
+

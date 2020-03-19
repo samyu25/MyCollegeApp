@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DayIIActivity">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Row 1 Starts From Here -->
+
+        <!-- Row 2 Starts From Here -->
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:background="#2196F3"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/time"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:background="#2196F3"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/course"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:background="#2196F3"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/faculty"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <!-- Row 3 Starts From Here -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:layout_span="1"
+                android:background="#64FFDA"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/_9_40_10_40"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:layout_span="1"
+                android:background="#64FFDA"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/software_testing"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:layout_span="1"
+                android:background="#64FFDA"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/si"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <!-- Row 3 Starts From Here -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:layout_span="1"
+                android:background="#FFE0B2"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/_10_40_11_40"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:background="#FFE0B2"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/vb_net"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:layout_span="1"
+                android:background="#FFE0B2"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/av"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <!-- Row 4 Starts From Here -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:layout_weight="1"
+                android:background="#FFCCBC"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/_11_40_12_00"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:layout_weight="1"
+                android:background="#FFCCBC"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/Break"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:layout_weight="1"
+                android:background="#FFE0B2"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/_12_00_1_00"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:layout_weight="1"
+                android:background="#FFE0B2"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/lunch"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:layout_span="1"
+                android:background="#64FFDA"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="1:00-4:00"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:background="#64FFDA"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="VB.NET LAB"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="125dp"
+                android:layout_height="116.5dp"
+                android:layout_span="1"
+                android:background="#64FFDA"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="AV/CS"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

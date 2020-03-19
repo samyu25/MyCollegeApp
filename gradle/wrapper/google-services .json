@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "731864029633",
+    "firebase_url": "https://myskasc-96247.firebaseio.com",
+    "project_id": "myskasc-96247",
+    "storage_bucket": "myskasc-96247.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731864029633:android:5a560151801a4d376d3740",
+        "android_client_info": {
+          "package_name": "com.example.myskasc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731864029633-349r87esptrmv1pq6vhvadna1kgretam.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myskasc",
+            "certificate_hash": "3bb2e6605ca57f82eea15e46109e048b24dded32"
+          }
+        },
+        {
+          "client_id": "731864029633-dqmv4vi2680q9vep387folh31gd3vtdg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcKgFH_eSubTxU0TcobiZfx5n6SS8YgsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731864029633-dqmv4vi2680q9vep387folh31gd3vtdg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
